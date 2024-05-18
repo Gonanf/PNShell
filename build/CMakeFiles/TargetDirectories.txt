@@ -1,0 +1,3 @@
+C:/Users/gabys/OneDrive/Desktop/PNShell/build/CMakeFiles/PNShell.dir
+C:/Users/gabys/OneDrive/Desktop/PNShell/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/gabys/OneDrive/Desktop/PNShell/build/CMakeFiles/ZERO_CHECK.dir
