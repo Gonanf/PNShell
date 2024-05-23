@@ -1,10 +1,9 @@
+#define WIN32_LEAN_AND_MEAN
 #include <iostream>
 #include <WinSock2.h>
-#include <Windows.h>
 #include <WS2tcpip.h>
 #include "errors.hpp"
 #pragma comment(lib, "Ws2_32.lib")
-
 
 SOCKET connect_server(char* port)
 {
@@ -31,7 +30,6 @@ SOCKET connect_server(char* port)
         struct sockaddr_in hx;
         hx.sin_family = AF_INET;
         hx.sin_port = (char)port;
-        char str[(int)device -> ai_addrlen];
         hx.sin_addr.s_addr = (char)device -> ai_addr;
         r = WSAConnect(server_socket, device->ai_addr, (int)device->ai_addrlen, NULL, NULL, NULL, NULL);
         if (r == SOCKET_ERROR)

