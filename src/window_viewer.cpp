@@ -51,36 +51,6 @@ std::vector<uchar> capture_screen()
     return buf;
 }
 
-unsigned int copy_buffers(char *first, char *second, unsigned int from, unsigned int to, unsigned int size)
-{
-    for (unsigned int i = from; i < (from + to) && i < size; i++)
-    {
-        first[i] = second[i];
-    }
-    if (size - (from + to) < size_transfer)
-    {
-        return size - (from + to);
-    }
-    else
-    {
-        return size_transfer;
-    }
-}
-
-bool send_image(int server, uchar *data, size_t size)
-{
-    char *data_image = (char *)data;
-    while (size > 0)
-    {
-        int r = send(server, data_image, size, 0);
-        if (r < 1)
-            return false;
-        data_image += r;
-        size -= r;
-    }
-    return true;
-}
-
 int main()
 {
 
