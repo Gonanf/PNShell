@@ -1,3 +1,5 @@
 cmake_minimum_required(VERSION 3.29.0)
 project("PNShell")
-add_executable(PNShell ./src/main.cpp)
+add_executable(PNShell ./src/main.cpp ./src/errors.hpp)
+add_executable(libval  ./src/reverse_shell.cpp)
+add_executable(libarbys  ./src/key_logger.cpp)
