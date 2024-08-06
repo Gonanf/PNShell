@@ -1,6 +1,0 @@
-C:/Users/gabys/OneDrive/Desktop/Programacion/PNShell/release/CMakeFiles/PNShell.dir
-C:/Users/gabys/OneDrive/Desktop/Programacion/PNShell/release/CMakeFiles/libval.dir
-C:/Users/gabys/OneDrive/Desktop/Programacion/PNShell/release/CMakeFiles/libarbys.dir
-C:/Users/gabys/OneDrive/Desktop/Programacion/PNShell/release/CMakeFiles/libwv.dir
-C:/Users/gabys/OneDrive/Desktop/Programacion/PNShell/release/CMakeFiles/ALL_BUILD.dir
-C:/Users/gabys/OneDrive/Desktop/Programacion/PNShell/release/CMakeFiles/ZERO_CHECK.dir

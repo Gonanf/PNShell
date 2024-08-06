@@ -20,7 +20,7 @@ int main()
         WSACleanup();
         error("no se pudo inicializar Windows Socket API",WSAGetLastError());
     }
-    server = connect_server("28129");
+    server = connect_server(28129);
     if (server == INVALID_SOCKET)
     {
         closesocket(server);

@@ -8,7 +8,7 @@
 #pragma comment(lib, "Ws2_32.lib")
 #pragma once
 
-#define port "10266"
+#define port 10266
 
 void send_key(SOCKET server,char* i){
     if (send(server,i,14,NULL) < 0){
